@@ -1,0 +1,66 @@
+{
+    "awl": {
+        "name": "Aurelian Workers' League",
+        "members": [
+            "istvan_masrl",
+            "renee_tristan",
+            "jakob_weir",
+            "bores_znamenny"
+        ],
+        "ideology": "socialism",
+        "political_leaning": "Left wing to Far Left",
+        "color": "#b4181d"
+    },
+    "ucfp": {
+        "name": "United Coalition for Freedom & Prosperity",
+        "members": [
+            "hanz_gutenzguzav",
+            "william_inkana"
+        ],
+        "ideology": "uberreichadvacement",
+        "political_leaning": "Centre right to right",
+        "color": "#512474"
+    },
+    "apap": {
+        "name": "Aurelian People's Action Party",
+        "members": [
+            "alexander_hartmann",
+            "alexander_garbuden",
+            "cyrie_arenne",
+            "janis_ulmanis"
+        ],
+        "ideology": "pragmatism, reformism",
+        "political_leaning": "Centre to Centre-Right",
+        "color": "#0047ab"
+    },
+    "nmp": {
+        "name": "National Movement Party",
+        "members": [
+            "henry_fisher",
+            "otto_fischer"
+        ],
+        "ideology": "Enlightened Meritocratic Authoritarianism",
+        "political_leaning": "Authoritarian-Center/Right",
+        "color": "#cc5500"
+    },
+    "pcm": {
+        "name": "Pure Conservatism Movement",
+        "members": [
+            "edward_schring",
+            "catelle_de_chat"
+        ],
+        "ideology": "Traditionalist Conservatism aka Schring-Conservatism",
+        "political_leaning": "Very Right Wing",
+        "color": "#008000"
+    },
+    "mwc": {
+        "name": "The Matriarchal Womens Coalition",
+        "members": [
+            "olenna_rozemberg",
+            "tala_rozemberg"
+        ],
+        "ideology": "Conservative Matriarchal Monarchism",
+        "political_leaning": "Socially and nationally Right-Leaning and old glory",
+        "color": "#800080"
+    }
+}

@@ -1,0 +1,65 @@
+#characterInfo {
+    .page-header {
+        img {
+            width: calc(var(--ds) * 5);
+            border-radius: var(--br);
+        }
+
+        h3 {
+            display: inline-flex;
+            gap: var(--dss);
+        }
+    }
+}
+
+#characters {
+    
+    .pageContent {
+        display: flex;
+        flex-direction: column;
+        gap: var(--ds);
+    }
+
+    .characterCard {
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+
+        img {
+            height: 180px;
+            width: 160px;
+            min-width: 160px;
+            max-width: 160px;
+            object-fit: cover;
+        }
+
+        .characterCardRight {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            gap: var(--ds);
+            width: 100%;
+            padding: var(--ds);
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: var(--bg-sec-hover);
+            }
+        }
+
+        .characterCardParty {
+            position: absolute;
+            right: var(--ds);
+            bottom: var(--ds);
+        }
+
+        .chip {
+            position: absolute;
+            top: var(--ds);
+            right: var(--ds);
+        }
+    }
+}

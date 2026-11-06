@@ -1,0 +1,108 @@
+#newspapers {
+    .pageContent {
+        display: flex;
+        flex-direction: column;
+        gap: var(--ds);
+    }
+
+    .newspaperCard {
+        padding: var(--ds);
+        width: calc(100% - var(--ds2));
+        cursor: pointer;
+        position: relative;
+
+        &:hover {
+            background-color: var(--c-gray-700);
+
+            .newspaperDescriptionDiv {
+                max-height: 20rem;
+            }
+        }
+        
+        h2, p {
+            margin: 0;
+            margin-bottom: var(--dss);
+        }
+
+        .newspaperLine {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .newspaperIcon {
+            height: var(--ds2);
+            border-radius: var(--br);
+        }
+
+        .newspaperDescriptionDiv {
+            position: relative;
+            max-height: var(--ds2);
+            overflow: hidden;
+            transition: background 0.2s ease, max-height 0.2s ease;
+
+            .newspaperDescriptionShort {
+                white-space: pre-line;
+            }
+            .newspaperDescriptionShadow {
+                display: none;
+
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+
+                background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 100%);
+            }
+        }
+
+        .newspaperPartyDiv {
+            height: 1rem;
+            border-radius: var(--br);
+            padding: var(--dss);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 25;
+
+            .newspaperPartyShort, .newspaperPartyLong {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: 0;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            &:not(&:hover) {
+                .newspaperPartyShort {
+                    left: 0;
+                }
+                .newspaperPartyLong {
+                    right: -100%;
+                }
+            }
+
+            /*&:hover {
+                background-color: var(--ac-bg-hover);
+
+                .newspaperPartyShort {
+                    left: -100%;
+                }
+                .newspaperPartyLong {
+                    right: 0;
+                }
+            }*/
+        }
+
+        .newspaperClicker {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+    }
+}

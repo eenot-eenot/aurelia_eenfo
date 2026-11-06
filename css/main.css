@@ -1,0 +1,19 @@
+.partyChip {
+    border-radius: var(--br);
+    background-color: var(--ac-bg);
+
+    width: calc(5 * var(--ds));
+    height: var(--ds);
+    padding: var(--dss);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--ac-bg-hover);
+        color: var(--c-white);
+    }
+}

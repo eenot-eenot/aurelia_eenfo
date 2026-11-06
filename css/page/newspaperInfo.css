@@ -1,0 +1,37 @@
+#newspaperInfo {
+
+    .newspaperDescriptionOnpage {
+        margin-bottom: var(--ds);
+    }
+    
+    #newspaperInfoListArticles {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .newspaperArticleCard {
+        padding: var(--ds);
+        width: calc(100% - var(--ds2));
+        margin-bottom: var(--ds);
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--c-gray-700);
+        }
+
+        h2, h4 {
+            margin: 0;
+            margin-bottom: var(--dss);
+        }
+
+        .articleCardBottom {
+            display: flex;
+            justify-content: space-between;
+
+            .articleCardDate {
+                color: var(--c-gray-400);
+                font-weight: 400;
+            }
+        }
+    }
+}

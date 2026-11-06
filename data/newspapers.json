@@ -1,0 +1,127 @@
+{
+    "dsd": {
+        "name": "De Soziali Demokrati",
+        "color": "#b4181d",
+        "party": "awl",
+        "authors": [
+            "istvan marsel"
+        ],
+        "papers": {
+            "18500312": {
+                "name": "Labour Strikes to be Held in Lanten, Sargias, Cardten!",
+                "author": "stefon prasil",
+                "date": "1850-03-12"
+            },
+            "18500317": {
+                "name": "On the Female Vote [Column]",
+                "author": "stefon prasil",
+                "date": "1850-03-17"
+            },
+            "18500321": {
+                "name": "AWL Leaders to Meet at Conference Building in Iracten",
+                "author": "stefon prasil",
+                "date": "1850-03-21"
+            },
+            "18500325": {
+                "name": "How the Government Failed Peasants in Agrinentan",
+                "author": "stefon prasil",
+                "date": "1850-03-25"
+            },
+            "18500526": {
+                "name": "Election Results strongly in favour of the AWL",
+                "author": "stefon prasil",
+                "date": "1850-05-26"
+            }
+        }
+    },
+    "itn": {
+        "name": "In The News",
+        "icon": true,
+        "color": "#2b511c",
+        "authors": [
+            "cypreric oderjan"
+        ],
+        "papers": {
+            "18500318": {
+                "date": "1850-03-18"
+            },
+            "18500630": {
+                "date": "1850-06-30"
+            }
+        }
+    },
+    "ggn": {
+        "name": "Gresafan Globalizan Neutras",
+        "icon": true,
+        "color": "#f7c702",
+        "authors": [
+            "heinreich ageaircvan"
+        ],
+        "papers": {
+            "185003150": {
+                "name": "History Imprekas Aemperas",
+                "author": "heinreich ageaircvan",
+                "date": "1850-03-15"
+            },
+            "185003171": {
+                "name": "Split has happened in UCFP",
+                "author": "heinreich ageaircvan",
+                "date": "1850-03-17"
+            },
+            "185003172": {
+                "name": "APAP have made their stance",
+                "author": "heinreich ageaircvan",
+                "date": "1850-03-17"
+            },
+            "185003280": {
+                "name": "The Erenaot, the blade of the Znamenny family",
+                "author": "heinreich ageaircvan",
+                "date": "1850-03-28"
+            }
+        }
+    },
+    "ad": {
+        "name": "Adrinan Dictate",
+        "icon": true,
+        "color": "#800080",
+        "party": "mwc",
+        "authors": [
+            "duchess rozemberg"
+        ],
+        "papers": {
+            "185006100": {
+                "name": "Adrinan Dictate Issue",
+                "date": "1850-03-28"
+            },
+            "185006101": {
+                "name": "National Statute: - Election of 1850, socialists, the womens vote",
+                "date": "1850-03-28"
+            },
+            "185006102": {
+                "name": "The Adrinan Dictate: - Election of 1850",
+                "date": "1850-03-28"
+            },
+            "185006310": {
+                "name": "The Adrinan Dictate: - The Women's March",
+                "date": "1850-03-31"
+            }
+        }
+    },
+    "vn": {
+        "name": "Via Nova",
+        "icon": false,
+        "color": "#0047ab",
+        "party": "apap",
+        "authors": [
+            "janis_ulmanis"
+        ],
+        "papers": {
+            "18500330": {
+                "name": "cagt, International Moose Count Underway",
+                "author": "janist_ulmanis",
+                "date": "1850-03-30",
+                "pdf": true
+            }
+        }
+    }
+}

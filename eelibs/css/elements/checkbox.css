@@ -1,0 +1,77 @@
+/* Контейнер */
+.switcht {
+    --switch-width: 46px;
+    --switch-height: 26px;
+    --thumb-size: 18px;
+    --thumb-active-size: 21px;
+    --bg-off: var(--c-gray-600);
+    --bg-on: var(--ac-text);
+    
+    position: relative;
+    display: inline-block;
+    width: var(--switch-width);
+    height: var(--switch-height);
+
+    display: block;
+
+
+
+    &:hover {
+        .slider:before {
+            height: calc(0.75 * var(--thumb-size)) !important;
+            width: calc(0.75 * var(--thumb-size)) !important;
+            left: 8px !important;
+            bottom: 5.5px !important;
+        }
+    }
+}
+
+/* Скрываем дефолтный чекбокс */
+.switcht input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Фон переключателя */
+.switcht .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: var(--bg-off);
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 34px;
+    margin: 0;
+}
+
+/* Ползунок (шарик) */
+.switcht .slider:before {
+    content: "";
+    position: absolute;
+    height: var(--thumb-size);
+    width: var(--thumb-size);
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--c-white);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+}
+
+/* Состояние: Включено (Меняем фон) */
+.switcht input:checked + .slider {
+    background-color: var(--bg-on);
+}
+
+/* Состояние: Включено (Двигаем и увеличиваем шарик) */
+.switcht input:checked + .slider:before {
+    background-color: white;
+    transform: translateX(calc(var(--switch-width) - var(--thumb-active-size) - 8px));
+    height: var(--thumb-active-size);
+    width: var(--thumb-active-size);
+    bottom: 2.5px;
+}
+
+/* Эффект нажатия (Active state) */
+.switcht:active .slider:before {
+    width: 24px; /* Шарик немного растягивается при тапе */
+}

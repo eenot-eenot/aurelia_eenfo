@@ -1,0 +1,49 @@
+.settingCard {
+    margin: 0;
+    margin-bottom: var(--ds);
+    padding: var(--ds);
+    width: calc(100% - var(--ds2));
+
+    .setitngCardTitle, .setitngCardDescription {
+        margin: 0;
+        margin-bottom: var(--dss);
+    }
+    .setitngCardTitle {
+
+    }
+    .setitngCardDescription {
+        color: var(--text-sec);
+    }
+
+    &.column {
+        flex-direction: column;
+
+        .cardTextArea {
+            position: relative;
+        }
+        .valueShow {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+        }
+    }
+    &.row {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &.fullMouse {
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--c-gray-700);
+        }
+    }
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Aurelia EEnfo</title>
+    <link rel="stylesheet" href="eelibs/import.css">
+    <link rel="stylesheet" href="css/quicksettings.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/page/newspapersList.css">
+    <link rel="stylesheet" href="css/page/newspaperInfo.css">
+    <link rel="stylesheet" href="css/page/characters.css">
+    <link rel="stylesheet" href="css/page/parties.css">
+    <link rel="stylesheet" href="css/reader.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Grenze:ital,wght@0,100..900;1,100..900&family=Italianno&family=Jim+Nightshade&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body style="display: flex;">
+    <div id="nav" class="">
+        <button id="openmenu" onclick="openNavPanel()"><img src="img/ui/lines.svg"></button>
+        <div id="navcontent"></div>
+    </div>
+    <div id="content" class="">
+        <div class="page" id="settings"></div>
+        <div class="page" id="fakeSettings"><div class="pageContainer"><div class="pageContent"></div></div></div>
+        <div class="page block" id="home">
+            <div class="pageContainer">
+                <div class="pageContent">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="page block" id="reader">
+            <div class="pageContainer">
+                <div class="pageContent">
+                    <div class="readerMd" id="mainReaderMd">
+                        <div id="renderMdPlace"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="newspapers"><div class="pageContainer"><div class="pageContent"></div></div></div>
+        <div class="page" id="newspaperInfo"><div class="pageContainer"><div class="pageContent"></div></div></div>
+        <div class="page" id="parties"><div class="pageContainer"><div class="pageContent"></div></div></div>
+        <div class="page" id="partyInfo"><div class="pageContainer"><div class="pageContent"></div></div></div>
+        <div class="page" id="characters"><div class="pageContainer"><div class="pageContent"></div></div></div>
+        <div class="page" id="characterInfo"><div class="pageContainer"><div class="pageContent"></div></div></div>
+        <div class="page block" id="about">
+            <div class="pageContainer">
+                <div class="pageContent">
+                    <section>
+                        <p>Это пример HTML-страницы, демонстрирующей различные HTML-элементы без применения CSS-стилей.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div id="navdown" class=""></div>
+    </div>
+
+    <div id="modal" class="modal"><div id="modalForuse"></div></div>
+
+</body>
+<script src="js/lib/marked.js"></script>
+<script src="eelibs.js" type="module"></script>
+<script src="eelibs/import.js" type="module"></script>
+<script src="js/main.js" type="module"></script>
+<script src="js/page/fakesettings.js" type="module"></script>
+<script src="js/core.js" type="module"></script>
+</html>

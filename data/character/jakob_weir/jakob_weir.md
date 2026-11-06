@@ -1,0 +1,8 @@
+Born: June 7th, 1819
+Ideology: Socialist Republicanism
+Leader of: Aurelian Democratic Organization (ADO)
+Province: Ocidanten
+
+The firstborn of a settled merchant family in Landen, Weir was a remarkable student of historical studies at the University of Landen who aspired to research the earliest settlements in Western Aurelia, Anzaria, and neighboring Mugi. His interest in history naturally led him to meet and befriend many former and current students of political science and law, notably the now-leader of the AWAA István Masrl [<@1100695357689700402> we're BESTIES now!] during a visit to the University of Auriele, whom by his own account, inspired his newly-found passion for politics and socialist literature.
+
+ Weir has a reputation as an optimist, often pointing out positives in otherwise dreary situations and events, although many would quicker call his rose-tinted views naïve. As such, when the 1848 riots concluded in a new constitution being ratified, Weir gave up his stalling research to enter the fresh yet sallow political scene with his characteristic sanguineness. Weir believed that the newly enfranchised lower classes could co-exist with their former lords under a socialist republic where the wealth of the old nobility could serve every citizen without necessarily being thereto "transfered," with particular adversity towards feudalistic power consolidation. Weir gathered like-minded individuals—former classmates and colleagues— [thats a HUMAN em-dash] to form the Aurelian Democratic Organization, a faction now making up the more moderate wing of the Aurelian Worker's League.

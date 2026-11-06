@@ -1,0 +1,147 @@
+{
+    "istvan_masrl": {
+        "name": "István Masrl",
+        "nicknames": [
+            "Istvan Masrl",
+            "István Masrl"
+        ],
+        "party": "awl",
+        "province": "aurenten",
+        "player": "nope"
+    },
+    "bores_znamenny": {
+        "name": "Bores Znamenny",
+        "party": "awl",
+        "province": "soralenten",
+        "player": "eenot"
+    },
+    "olenna_rozemberg": {
+        "name": "Olenna Rozemberg",
+        "nicknames": [
+            "Duchess Olenna Rozemberg-Agrinoa",
+            "Olenna Rozemberg-Agrinoa",
+            "Olenna Rozemberg",
+            "Duchess Rozemberg"
+        ],
+        "party": "mwc",
+        "province": "agrinenten",
+        "player": "zachary"
+    },
+    "catelle_de_chat": {
+        "name": "Catelle de Chat",
+        "nicknames": [
+            "the cat",
+            "the Cat",
+            "Cat"
+        ],
+        "party": "pcm",
+        "province": "north_arpal",
+        "player": "shinybadge"
+    },
+    "tala_rozemberg": {
+        "name": "Tāla Rozemberg",
+        "nicknames": [
+            "Tala Rozemberg"
+        ],
+        "party": "mwc",
+        "province": "agrinenten",
+        "player": "moad",
+        "img": false
+    },
+    "edward_schring": {
+        "name": "Edward Schring",
+        "party": "pcm",
+        "province": "iracterie",
+        "player": "napoleon"
+    },
+    "renee_tristan": {
+        "name": "Renèe ''Lionne'' Tristan",
+        "nicknames": [
+            "Renee Tristan",
+            "Renee Lionne",
+            "Lionne"
+        ],
+        "party": "awl",
+        "province": "silvicarie",
+        "player": "selva_oscura"
+    },
+    "gregoire_brenchichikevitch": {
+        "name": "Gregoire Brenchichikevitch",
+        "party": "ucfp",
+        "province": "gares",
+        "player": "pierog",
+        "img": false
+    },
+    "otto_fischer": {
+        "name": "Otto Fischer",
+        "party": "nmp",
+        "province": "agrinenten",
+        "player": "otto"
+    },
+    "janis_ulmanis": {
+        "name": "Jānis 'Zobens' Ulmanis",
+        "nicknames": [
+            "Janis Ulmanis",
+            "Janis Ulmānis",
+            "Ulmanis",
+            "Janiz Zobens",
+            "Zobens Ulmanis"
+        ],
+        "party": "apap",
+        "province": "tovrerie",
+        "player": "latviaforever"
+    },
+    "alexander_garbuden": {
+        "name": "Alexander Garbuden",
+        "party": "apap",
+        "province": "sacs",
+        "player": "cavehorse",
+        "img": false
+    },
+    "hanz_gutenzguzav": {
+        "name": "Hanz Gutenzguzav",
+        "party": "ucfp",
+        "province": "gares",
+        "player": "wellerman",
+        "img": false
+    },
+    "henry_fisher": {
+        "name": "Henry Fischer",
+        "party": "nmp",
+        "province": "agrinenten",
+        "player": "air"
+    },
+    "william_inkana": {
+        "name": "William Inkana",
+        "party": "ucfp",
+        "province": "north_arpal",
+        "player": "inka",
+        "img": false
+    },
+    "cyrie_arenne": {
+        "name": "Cyrie ''Silenne'' Arenne",
+        "nicknames": [
+            "Cyrie Arenne",
+            "Cyrie Silenne",
+            "Silenne Arenne"
+        ],
+        "party": "apap",
+        "province": "aurelle",
+        "player": "nezuko_kam_",
+        "img": false
+    },
+    "alexander_hartmann": {
+        "name": "Alexander von Hartmann",
+        "party": "apap",
+        "province": "aurelle",
+        "player": "manstein",
+        "img": false
+    },
+    "jakob_weir": {
+        "name": "Jakob Weir",
+        "party": "awl",
+        "province": "ocidanten",
+        "player": "skrrbby",
+        "img": false
+    }
+}

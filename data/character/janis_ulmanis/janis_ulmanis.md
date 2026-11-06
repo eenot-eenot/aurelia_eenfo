@@ -1,0 +1,27 @@
+Born: August 19th, 1819
+Ideology: Right-leaning centrism
+Leader of: ???
+Alma Mater: University of Tovrerie Hill
+Notable ideas: *'Reform and Protect: The Path Forward'*
+Province: Tovrerie
+Military Service: Former Captain in the National Army
+
+
+Born to a modest lower middle class family in the provincial capital of Tovrerie, Jānis Zobens was raised in a family that valued adaptation, discipline and personal responsibility. His father was a former soldier who had served during a series of ||redacted since idfk the lore||, while his mother and uncle managed the family's small agricultural estate. In his years leading up to adulthood, Jānis developed a keen interest in how the nation was ran, and an even deeper passion in why people had to suffer for seemingly no reason. His passion led him to start wondering how a country could maintain its independence and its development without sacrificing or ignoring the liberties and wellbeing of its people.
+
+At the age of 18, Jānis entered the Royal Military Academy, where he received an education, albeit it short, in military logistics, mathematics and the principles of commanding and maintaining an army. Graduating with distinction, he received an officer's commission. He was then eventually assigned to an infantry regiment stationed in the nation's turbulent eastern provinces.
+
+During his years of service, Zobens witnessed and experienced firsthand the daily hardships endured by soldiers and civilians alike. Poorly organised supply lines that failed to deliver basic necessities, corrupt officers, and the disproportionate influence of the wealthy over military appointments convinced him that the state's institutions required major reform.
+However, he did not turn to the ideas and methods many revolutionaries had, as during his service Zobens had also seen the dangers of revolutionary behaviour, particularly when political factions placed ideological purity and belief over the management and stability of the nation.
+
+Zobens further distinguished himself during a series of provincial uprisings and unrest, where he was tasked with retreating and 'letting the people bite more than they could chew'. Rather than withdrawing basic necessities to the area, Zobens advocated for negotiations with local representatives while ensuring that no further violence erupted. His approach earned him the respect of many civilian leaders, although his willingness to question the authority of his superiors made him vastly more unpopular amongst hardened state-loyal officers.
+
+Following his promotion to captain, Zobens became increasingly critical of the political establishment running the country. He believed that the country's existing system favoured privileged families while neglecting those who gave time and effort to provide things such as food, goods and so forth. Nevertheless, he outright rejected and clearly fought against the rising idea that the abolition of private property or the establishment of a workers state would resolve these issues. In his eyes, concentrating economic and political authority in the hands of a single class would merely replace one privileged group with another.
+
+After resigning, Zobens entered public life, initially writing essays (featured in many newspapers) on the idea of the states' responsibilities, constitutional government and military reform. One of his most notable works is *'Reform and Protect: The Path Forward'*, in which he argued that a successful and technologically/socially developing nation required three foundations essential to its survival: economy opportunities, social responsibility and strong public institutions. He supported the protection of private property, reasonable protections for workers, and the professionalisation of the armed forces. He advocated his reforms to include strong safety nets for all, improved public health, and better economic integration for those areas still lagging behind.
+
+Zobens became known for his measured speeches and heated debates with revolutionaries and those supporting the corrupt. His refusal to align himself with either the established 'conservative' elite or the revolutionary left led him to a spotlight in which no other person had done so before. He argued that political movements should be judged by their practical products and consequences rather than their ideological promises and hopes. While be acknowledged the grievances that had driven workers towards socialism and communism, he continued to maintain his beliefs in lasting improvements being achieved through education, legislation, economic drive, and constitutional reform rather than class conflict.
+
+By the mid 19th century, Jānis Zobens had hopes to emerge as a political representative of the country's moderate political current. To his supporters, he was a disciplined patriot who sought to bond social progress with national stability. To his opponents on either side of the political spectrum,  he was an obstacle in the path to a free nation, an obstacle who had not yet seen the light of what the world was truly like.
+
+Despite the criticism and lack of national support, Jānis Zobens remained firmly convinced that a stage could only endure and outperform it's neighbours when neither the wealthy nor the working possessed unchecked political power that was shifted in one's favour. His ambition wasn't to preserve the corrupt existing order, but to reform it without leaving the institutions that the nation's future and all it's people depended on, in ruin and rubble

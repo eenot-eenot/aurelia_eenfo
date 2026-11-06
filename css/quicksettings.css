@@ -1,0 +1,34 @@
+#reader .pageContainer {
+
+    #mainReaderMd {
+        position: relative;
+        margin-top: 80px;
+    }
+
+    #mdQuickSettings {
+        position: absolute;
+        top: calc(var(--ds) * 5);
+        right: var(--ds);
+        display: flex;
+        flex-direction: column;
+
+        #paddingMdQS {
+            transform: rotate(180deg);
+            width: 20dvw;
+            min-width: 20dvw;
+            max-width: 20dvw;
+            margin-left: auto;
+        }
+
+        .aBtn.active {
+            background: var(--btn-pri-bg-active);
+        }
+
+        .btnsRow {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: var(--dss);
+        }
+    }
+}

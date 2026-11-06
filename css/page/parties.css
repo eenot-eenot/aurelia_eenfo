@@ -1,0 +1,115 @@
+#parties .pageContent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--ds);
+
+    .partyCard {
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--c-gray-700);
+        }
+
+        img.partyIco {
+            height: 160px;
+            width:  160px;
+            max-height: 160px;
+            object-fit: cover;
+        }
+
+        .partyCardRight {
+            width: 100%;
+            max-width: calc(100% - 160px - var(--ds2));
+            padding: var(--ds);
+
+            h2 {
+                margin: 0;
+            }
+
+            .ideology {
+                margin: var(--dss) 0;
+            }
+
+            .members {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                overflow-y: hidden;
+                overflow-x: auto;
+                gap: 0 var(--ds);
+
+                .character-btn {
+                    border-radius: var(--brc);
+                    background-color: var(--c-gray-700);
+                    padding: var(--dss);
+                    padding-left: calc(var(--ds) * 1.75 + var(--dss));
+                    margin: 0;
+                    white-space: nowrap;
+
+                    img {
+                        left: 0.5rem;
+                    }
+
+                    &:hover {
+                        background-color: var(--c-gray-600);
+                    }
+
+                    &:active {
+                        background-color: var(--c-gray-400);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    #parties .pageContent {
+        .partyCard {
+            position: relative;
+
+            img.partyIco {
+                position: absolute;
+                left: var(--ds);
+                top: var(--ds);
+                border-radius: var(--brc);
+
+                width: var(--ds2);
+                height: var(--ds2);
+            }
+
+            h2 {
+                text-indent: 2.5rem;
+            }
+
+            .partyCardRight {
+                max-width: calc(100% - var(--ds2));
+
+                .members {
+                    gap: 0 var(--dss);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    #parties .pageContent {
+        .partyCard {
+            padding-bottom: 50px;
+
+            .members {
+                position: absolute;
+                width: calc(100% - var(--ds2));
+                left: var(--ds);
+                right: var(--ds);
+                bottom: var(--ds);
+            }
+        }
+    }
+}

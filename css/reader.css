@@ -1,0 +1,94 @@
+.reader, .readerMd {
+    white-space: pre-wrap;
+
+    h1, h2, h3, h4, h5, h6, p, b, em, strong, span, blockquote, ul {
+        margin: var(--dss) 0;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    .mention-btn {
+        --local-bg: #00000000;
+        --local-ptop: 0;
+        --local-pright: 0;
+        --local-pbottom: 0;
+        --local-pleft: calc(var(--ds) * 1.75);
+
+        background-color: var(--local-bg);
+
+        color: var(--ac-text);
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        vertical-align: middle;
+        position: relative;
+        white-space: nowrap;
+        margin: 0;
+        
+        padding: var(--dss) var(--dss) var(--dss) calc(var(--ds) * 1.75);
+        padding: var(--local-ptop) var(--local-pright) var(--local-pbottom) var(--local-pleft);
+        gap: 0.35rem;
+
+        z-index: 10;
+
+        &:hover {
+            filter: brightness(1.5);
+        }
+
+        span {
+            color: var(--ac-text);
+            margin: 0;
+            line-height: normal;
+            white-space: nowrap;
+        }
+
+        .chip-icon {
+            position: absolute;
+            left: 0.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1.5rem !important;
+            height: 1.5rem !important;
+            min-width: unset !important;
+            object-fit: cover;
+            border-radius: var(--brs, 4px);
+        }
+
+        &.bgChip {
+            --local-ptop: var(--dss);
+            --local-pright: var(--dss);
+            --local-pbottom: var(--dss);
+
+            border-radius: var(--br);
+            span {
+                color: var(--c-gray-100);
+            }
+        }
+
+        &.withL {
+            .longTextDiv {
+                background-color: var(--local-bg);
+                position: absolute;
+                border-radius: var(--br);
+                right: 0;
+
+                display: inline-flex;
+                align-items: center;
+                vertical-align: middle;
+                white-space: nowrap;
+                
+                padding: var(--dss) var(--dss) var(--dss) calc(var(--ds) * 1.75);
+                gap: 0.35rem;
+
+                transform: scale(0);
+                transition: transform 0.3s ease;
+            }
+
+            &:hover .longTextDiv {
+                transform: scale(1);
+            }
+        }
+    }
+}

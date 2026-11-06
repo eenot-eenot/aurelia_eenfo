@@ -1,0 +1,10 @@
+The Adrinan Dictate was originally founded as the Adrinaner Diktat on September 15th 1824 as a local informational newsletter for the people of Adrinan by Duchess Rozemberg. Its original purpose was merely notifying the public of the duchy of local community gatherings, new laws, taxes, etc.
+
+Throughout the years the newspaper was granted significantly more funding by the Duchy allowing it to expand into several additional categories including general, local, and national news, as well as grow its publishing area into Agrinenten, Sulmar, and Provencie Sacs hence its multiple language issues, Das Adrinaner Diktat and Dictatum Adrinan for Anzaria and Aurelia respectively.
+
+Today the paper is a national staple circulated across all of Aurelia and partially through Anzaria, in 1840 a 40% stake in the newspaper was sold to public investors in order to raise funding for the Women's Coalition's educational and charitable efforts in Agrinenten; Ever since that sale the newspaper has issued 2 divisions:
+## Divisions
+- **The Adrinan Dictate**
+  - The primary division of the paper, operated strictly by a team of unbiased journalists who are most influenced by the public investors. Though it is officially unbiased it is known to be slightly right leaning on certain subjects, especially the monarchy.
+- **The National Statue**
+  - The National Statue is the optional division of the paper ran solely by the House of Rozemberg-Agrinoa for the Matriarchal Women's Coalition, it is mandatorily handed out to all citizens in the County of Agrines and available across Aurelia and more recently in the Duchy of Adrinan. It primarily publishes updates and news of the MWC including its actively changing political stances on the issues of the times, it occasionally features heavily biased news sections.
